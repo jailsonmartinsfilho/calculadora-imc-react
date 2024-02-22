@@ -1,0 +1,67 @@
+#result-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#imc-number {
+    font-size: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+
+#imc-info {
+    font-size: 1.4rem;
+    color: #000000;
+}
+
+#result-container h3 {
+    margin-top: 1rem;
+    color: #000000;
+}
+
+#imc-table{
+    margin: 1.5rem 0;
+    font-size: 0.8rem;
+}
+
+.table-header {
+    font-weight: bold;
+    color: #303030;
+}
+
+.table-header, .table-data{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #444;
+}
+
+.table-header h4, .table-data p{
+    flex: 1;
+}
+
+.table-header h4:nth-child(3), .table-data p:nth-child(3) {
+    max-width: 80px;
+}
+
+#back-btn {
+    align-self: center;
+}
+
+.good {
+    color: #12db34;
+}
+
+.low {
+    color: #dbd812;
+}
+
+.medium {
+    color: #e69113;
+}
+
+.high {
+    color: #ff0000;
+}
+
